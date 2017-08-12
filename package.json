@@ -1,0 +1,27 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "\"This is testing file\"",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinling0218/fullstack.git"
+  },
+  "author": "Kevin Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinling0218/fullstack/issues"
+  },
+  "homepage": "https://github.com/kevinling0218/fullstack#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
